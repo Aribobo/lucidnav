@@ -66,7 +66,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? " md:hidden fixed left-0 top-0 w-[100%] sm:w-[100%] md:w-[100%] h-screen overflow-y-scroll bg-[#eae7dc] p-10 ease-in duration-0"
+            ? " md:hidden fixed left-0 top-0 w-[100%] sm:w-[100%] md:w-[100%] h-screen  bg-[#eae7dc] p-10 ease-in duration-0"
             : " md:hidden fixed left-[-150%] top-0  p-10 ease-in duration-0"
         }
       >
@@ -85,7 +85,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className=" md:hidden h-screen w-full justify-between flex-col ">
+        <div className=" md:hidden h-screen w-full justify-between flex-col overflow-y-scroll ">
           <ul
             style={{ color: `${LinkColor}` }}
             className=" uppercase flex flex-col  text-3xl items-center mt-10"

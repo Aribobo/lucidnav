@@ -1,9 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-// import  Header from '../components/Header'
-// //import Sidebar from '../components/Sidebar'
-// import TopCards from '@/components/TopCards'
-// import BarChart from '@/components/BarChart'
+import Head from 'next/head';
+import Image from 'next/image';
+ import Hero from '../components/Hero';
 
 export default function Home() {
   return (
@@ -14,8 +11,9 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-gray-100 min-h-screen'>
-      </main>
+
+        <Hero/>
+    
     </>
   );
 }
